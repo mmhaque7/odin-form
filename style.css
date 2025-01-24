@@ -1,3 +1,8 @@
+@font-face {
+  font-family: NorseBold;
+  src: url(fonts/Norse-Bold.otf);
+}
+
 body {
   margin: 0;
 }
@@ -26,4 +31,32 @@ main {
   color: black;
   text-align: center;
   font-size: 0.8rem;
+}
+.logo {
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.logo img {
+  background-color: #000000;
+  object-fit: cover;
+  border: none;
+  width: 5rem;
+  height: auto;
+  display: block;
+  margin-left: 10rem;
+}
+.heading {
+  position: absolute;
+  top: 10rem;
+  display: flex;
+  background-color: #000000;
+  opacity: 70%;
+  width: 40%;
+}
+h1 {
+  font-family: NorseBold;
+  color: white;
+  font-size: 6rem;
+  margin: 1rem;
 }
